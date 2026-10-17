@@ -20,8 +20,19 @@ Features:
 - 1x PN532 breakout board for NFC
 - ESP32 S3 WROOM1-N16R8 as the main brain
 
+### How to build it?
+1. Order the PCB (with PCBA) from JLCPCB or any PCB manufacturer.
+2. Order the different parts from the vendors (available)
+3. Solder the NRF modules, LEDs, buttons, SD Card reader and the display on the front side
+4. Solder the PN532 board on the back side
+5. Use the code given in /prod/firmware and upload it by connecting through the USB C port to your computer and using the Arduino IDE.
+6. Give it power through the USB port, then navigate through the buttons and the display attached.
+7. voila! now you have a custom built flipper zero!
+
+**DISCLAIMER:** This tool is intended for educational and research purposes only. I do not condone or endorse any illegal, malicious, or unauthorized use of this tool. Misuse includes, but is not limited to, unauthorized access to systems or networks, data theft, spreading malware, compromising accounts, violating others' privacy, disrupting services, or running code with the intent to cause harm. Users are solely responsible for how they use this tool and any code they execute with it. Always obtain proper authorization before testing systems or running security-related experiments.
+
 ### Schematic
-![image](images/litezero.pdf)
+![image](images/litezero.png)
 
 ### PCB 
 ![image](images/pcb.png)
